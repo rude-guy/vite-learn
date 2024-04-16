@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "./node_modules/.bin/esbuild esbuild/src/index.jsx --bundle --outfile=esbuild/dist/out.js",
-    "build:rollup": "rollup -c rollup/rollup.config.js --bundleConfigAsCjs"
+    "build:rollup": "rollup -c rollup/scripts/rollup-alias.config.js --bundleConfigAsCjs"
   },
   "keywords": [],
   "author": "",
