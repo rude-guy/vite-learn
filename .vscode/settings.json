@@ -1,4 +1,4 @@
 {
-  "prettier.configPath": ".prettierrc.js",
+  "prettier.configPath": ".prettierrc.cjs",
   "liveServer.settings.port": 5501
 }
